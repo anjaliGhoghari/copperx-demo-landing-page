@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { fontFamily } from 'tailwindcss/defaultTheme'
+// import { fontFamily } from 'tailwindcss/defaultTheme'
 
 export default {
   content: [
@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        financier: ['TestFinancierDisplay', ...fontFamily.sans],
+        financier: ['TestFinancierDisplay','sans-sarif'],
       },
     },
   },

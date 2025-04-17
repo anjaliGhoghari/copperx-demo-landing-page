@@ -1,12 +1,15 @@
 
 import './App.css'
-import Header from './components/Header';
+import HeroSection from './components/HeroSection'
+import Layout from './components/layout/Layout'
 
 function App() {
   
   return (
     <>
-    <Header></Header>
+    <Layout>
+    <HeroSection/>
+    </Layout>
     </>
   )
 }
