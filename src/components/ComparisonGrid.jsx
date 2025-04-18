@@ -10,8 +10,6 @@ const icon_name = [
     { name: 'Gocoin', icon: 'gocoin.png' },
     { name: 'Stripe', icon: 'stripe.png' },
     { name: 'Bitpay', icon: 'bitpay.png' },
-   
-
 ];
 
 function ComparisonGrid() {
@@ -25,6 +23,7 @@ function ComparisonGrid() {
                             <h2 className='common-blue text-5xl font-financier'>Copperx VS. our competitors</h2>
                             <p className='gray mt-4'>See how Copperx stacks up one-on-one against the competition.</p>
                         </div>
+
                         <div className='flex flex-wrap justify-center items-center text-center mt-[72px]'>
                             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 items-center justify-center text-center'>
                                 {icon_name.map((item, index) => (
