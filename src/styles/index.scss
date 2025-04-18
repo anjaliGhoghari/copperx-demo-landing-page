@@ -103,6 +103,9 @@
     .black-button{
         @apply gap-3 px-[12px] py-[8px] text-white bg-black border border-transparent rounded-lg cursor-pointer hover:border-white;
     }
+    .blue-button{
+      @apply gap-3 px-[12px] py-[8px] text-white bg-[#5F76F9] border border-transparent rounded-lg cursor-pointer hover:border-white;
+  }
     .white-button{
       @apply gap-3 px-[12px] py-[8px] text-black bg-white border border-gray-300 rounded-lg cursor-pointer hover:shadow-xl;
   }

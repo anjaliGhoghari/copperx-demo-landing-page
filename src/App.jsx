@@ -1,6 +1,7 @@
 
 import './App.css'
 import ComparisonGrid from './components/ComparisonGrid'
+import GetStartedSection from './components/GetStartedSection'
 import HeroSection from './components/HeroSection'
 import Layout from './components/layout/Layout'
 import QuestionSection from './components/QuestionSection'
@@ -15,6 +16,7 @@ function App() {
     <ComparisonGrid/>
     <RelatableArticle/>
     <QuestionSection/>
+    <GetStartedSection/>
     </Layout>
     </>
   )
