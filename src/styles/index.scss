@@ -98,6 +98,19 @@
         @apply box-border m-0 p-0;
     }
 }
+@layer base {
+  .container::after {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    display: none;
+    height: 100%;
+    width: 1px;
+    background-color: rgba(106, 115, 133, 0.2);
+    content: '';
+  }
+}
+
 @layer components{
     .black-button{
         @apply gap-3 px-[12px] py-[8px] text-white bg-black border border-transparent rounded-lg cursor-pointer hover:border-white;
@@ -109,7 +122,11 @@
     {
         @apply text-[#5A6376];
     }
+    .common-blue{
+      @apply text-[#13171F] ;
+    }
     li :hover{
       @apply text-gray-800
     }
+    
 } 
