@@ -18,7 +18,7 @@ function RelatableArticle() {
                             <button className='white-button'>View all</button>
                         </div>
                         <div className='flex justify-center items-center text-center'>
-                            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 '>
+                            <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 '>
                                 {RealatedArticlesList.map((item, index) => (
                                     <div key={index} className='mt-10 max-w-[294px]'>
                                         <div><img src={new URL(`../assets/images/${item.image}`, import.meta.url).href} alt={item.image} /></div>

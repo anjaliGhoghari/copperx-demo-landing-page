@@ -27,7 +27,7 @@ function ComparisonGrid() {
                         <div className='flex flex-wrap justify-center items-center text-center mt-[72px]'>
                             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 items-center justify-center text-center'>
                                 {icon_name.map((item, index) => (
-                                    <div key={index} className='flex flex-col items-center justify-center hover:shadow-2xl hover:scale-100 transition-all duration-200 border rounded-xl px-[32px] py-[26px] font-semibold'
+                                    <div key={index} className='flex flex-col items-center justify-center hover:shadow-2xl hover:scale-100 transition-all duration-200 border rounded-xl px-[26px] py-[26px] font-semibold'
                                         >
                                         <img src={new URL(`../assets/images/${item.icon}`, import.meta.url).href} alt={item.name}
                                         />
